@@ -1,2 +1,2 @@
 ## A directory for misellaneous stuff. 
-Nothing really relevant should be here!
+All my (N02959575) miscellaneous stuff will go here, maybe pictures?
