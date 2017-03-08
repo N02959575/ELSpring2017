@@ -29,9 +29,10 @@ def logTemp():
  			print "Temperature logged"
  		except:
 			print "Error!!"
-
+#makes the function logTemp() run every 30 seconds
 schedule.every(30).seconds.do(logTemp)
 
+#Runs Program for 10 minutes + 1 second so it can run the code one last time
 t_end = time.time() + 60 * 10
 while time.time() < t_end + 1:
     schedule.run_pending()
